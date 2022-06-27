@@ -10,7 +10,7 @@
 
 *Note from the owner of this repository:* **Feels good to be back from the holidays. I can't wait to see what ALX has for me**
 
->> Image (not sure if C has taught me to think like a programmer...) <<
+>> Image (not sure if C has taught me to think like a programmer...)
 
 ## Learning Objectives
 
@@ -31,7 +31,7 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 ## More Info
 
 
-*Zen*
+#### *Zen*
 
 ```python
 import this
@@ -61,8 +61,8 @@ If the implementation is easy to explain, it may be a good idea.
 Namespaces are one honking great idea -- let's do more of those!
 `
 
-*Pycodestyle*
+#### *Pycodestyle*
 
 Pycodestyle is now the new standard of Python style code
 
->> Image <<
+>> Image
