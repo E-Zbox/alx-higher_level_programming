@@ -13,4 +13,4 @@ if las_dgt > 5:
 if las_dgt == 0:
     print(info.format(number, las_dgt), "0")
 if las_dgt < 6 and las_dgt != 0:
-    print(info.format(number, las_dgt), "less than 6 and not 0"
+    print(info.format(number, las_dgt), "less than 6 and not 0")
