@@ -4,7 +4,7 @@ number = random.randint(-10000, 10000)
 
 text = "Last digit of {:d} is ".format(number)
 if (number < 0):
-    last_digit = (number * -1) % 10
+    last_digit = -1 * ((number * -1) % 10)
 else:
     last_digit = number % 10
 
@@ -17,6 +17,6 @@ elif (last_digit > 5):
 elif (last_digit < 6):
     text += "less than 6 and not 0\n"
 
-print(text)
+print(text, end="\n")
 
 # print("{:d} % 10 = {:d}".format(number, number % 10))
