@@ -2,6 +2,7 @@
 import random
 number = random.randint(-10000, 10000)
 
+number = -98
 text = "Last digit of {:d} is ".format(number)
 if (number < 0):
     last_digit = -1 * ((number * -1) % 10)
@@ -18,5 +19,3 @@ elif (last_digit < 6):
     text += "less than 6 and not 0\n"
 
 print(text, end="\n")
-
-# print("{:d} % 10 = {:d}".format(number, number % 10))
