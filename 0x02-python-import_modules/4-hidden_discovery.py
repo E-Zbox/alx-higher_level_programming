@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 import hidden_4
+import sys
 
 def read_hidden():
     for prop in dir(hidden_4):
