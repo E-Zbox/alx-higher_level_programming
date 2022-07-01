@@ -21,7 +21,7 @@ __General__
 -	What is a sequence
 -	What is tuple packing
 -	What is sequence unpacking
--    	What is the del statement and how to use it
+-	What is the del statement and how to use it
 
 ## Tasks
 
@@ -29,12 +29,12 @@ __General__
 
 Write a function that prints all integers of a list.
 
-***File: `0-print_list_integer.py`***
+***File:*** *`0-print_list_integer.py`*
 
 ## 1. Secure access to an element in a list
 
 Write a function that retrieves an element from a list like in C.
 
-***File: `1-element_at.py`***
+***File:*** *`1-element_at.py`*
 
 ### Feel free to peruse through this repository
