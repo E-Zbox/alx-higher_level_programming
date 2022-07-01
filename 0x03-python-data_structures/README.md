@@ -3,7 +3,7 @@
 ### Table of Contents
 
 -	[Learning Objectives](#learning-objectives)
--		[General](#general)
+	-	[General](#general)
 -	[Tasks](#tasks)
 
 ## Learning Objectives
