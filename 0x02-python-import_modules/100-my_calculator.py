@@ -9,7 +9,7 @@ operators_func = [
         add, sub, mul, div
         ]
 if len(argv) != 4:
-    print("Usage: ./100-my_calculator.py <a> <operator> <b>")
+    print(f"Usage: {argv[0]} <a> <operator> <b>")
     exit(1)
 
 if (argv[2] in operators):
@@ -18,5 +18,5 @@ if (argv[2] in operators):
 
     print(f"{argv[1]} {operators[index]} {argv[3]} = {result}")
 else:
-    print("Unknown operators. Available operators: +, -, * and /")
+    print("Unknown operator. Available operators: +, -, * and /")
     exit(1)
