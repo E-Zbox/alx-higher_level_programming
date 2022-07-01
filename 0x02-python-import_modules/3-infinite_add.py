@@ -1,9 +1,9 @@
 #!/usr/bin/python3
 import sys
 
-_sum = 0
-for num in sys.argv:
-    if num != sys.argv[0]:
-        _sum += int(num)
+if __name__ == "__main__":
+    args = []
+    for index in range(1, len(sys.argv)):
+        args.append(int(sys.argv[index]))
 
-print(_sum)
+    print(sum(args))
