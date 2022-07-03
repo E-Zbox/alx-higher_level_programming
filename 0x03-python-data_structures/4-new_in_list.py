@@ -6,7 +6,6 @@ def new_in_list(my_list, idx, element):
 
     my_list_copy = []
     for index in range(len(my_list)):
-        print(index)
         if index == idx:
             my_list_copy.append(element)
         else:
