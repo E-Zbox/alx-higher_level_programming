@@ -28,24 +28,24 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 Write a function that prints x elements of a list.
 
 
--	Prototype: `def safe\\_print\\_list(my\\_list=[], x=0):`
--	`my\\_list` can contain any type (integer, string, etc.)
+-	Prototype: `def safe_print_list(my_list=[], x=0):`
+-	`my_list` can contain any type (integer, string, etc.)
 -	All elements must be printed on the same line followed by a new line.
 -	`x` represents the number of elements to print
--	`x` can be bigger than the length of `my\\_list`
+-	`x` can be bigger than the length of `my_list`
 -	Returns the real number of elements printed
 -	You have to use `try: / except:`
 -	You are not allowed to import any module
 -	You are not allowed to use `len()`
 
-**File**: *0-safe\_print\_list.py*
+**File**: *0-safe_print_list.py*
 
 # 1. Safe printing of an integers list
 
 Write a function that prints an integer with `"{:d}".format()`
 
 
--	Prototype: `def safe\_print\_integer(value):`
+-	Prototype: `def safe_print_integer(value):`
 -	`value` can be any type (integer, string, etc.)
 -	The integer should be printed followed by a new line
 -	Returns `True` if `value` has been correctly printed (it means the `value` is an integer)
@@ -55,7 +55,7 @@ Write a function that prints an integer with `"{:d}".format()`
 -	You are not allowed to import any module
 -	You are not allowed to use `type()`
 
-**File**: *1-safe\_print\_integer.py*
+**File**: *1-safe_print_integer.py*
 
 ### PERUSE through the repository for more tasty Python scripts...
 
