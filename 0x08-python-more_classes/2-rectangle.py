@@ -3,8 +3,9 @@
 
 
 class Rectangle:
+    """ <class Rectangle """
     def __init__(self, width=0, height=0):
-        """ <class Rectangle> """
+        """ <class Rectangle> intialization"""
         self.width = width
         self.height = height
 
