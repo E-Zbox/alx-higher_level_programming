@@ -11,6 +11,10 @@ class Rectangle:
 
     def __str__(self):
         result = ""
+
+        if ((self.__width == 0) | (self.__height == 0)):
+            return (result)
+
         for row in range(self.__height):
             for col in range(self.__width):
                 result += "#"
