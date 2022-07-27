@@ -34,7 +34,10 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 -	How does Python pass variables to functions
 
 **Others**: Wassup with you and learning Python?
-**maziEben**: ![Screenshot](./screenshots/i_dont_always_learn_python.jpg)
+
+**maziEben**: 
+
+![Screenshot](./screenshots/i_dont_always_learn_python.jpg)
 
 ## Tasks
 
