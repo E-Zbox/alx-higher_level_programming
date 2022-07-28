@@ -9,7 +9,7 @@ class Rectangle:
         self.__height = height
 
     def __repr__(self):
-        return f"Rectange({self.__width}, {self.__height})"
+        return f"Rectangle({self.__width}, {self.__height})"
 
     def __str__(self):
         shape = ""
