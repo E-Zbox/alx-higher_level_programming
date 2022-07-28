@@ -23,13 +23,14 @@ class Rectangle:
         shape = ""
         if ((self.__width == 0) | (self.__height == 0)):
             return (shape)
+
         for row in range(self.__height):
             for col in range(self.__width):
-                type(self).print_symbol += "#"
+                shape += f"{self.print_symbol}"
             if (row != (self.__height - 1)):
-                type(self).print_symbol += "\n"
+                shape += "\n"
 
-        return type(self).print_symbol
+        return (shape)
 
     @property
     def width(self):
